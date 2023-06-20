@@ -29,7 +29,7 @@ const CuratedDownload = () => {
           width: "0",
           height: "0",
           borderTop: "30vh solid transparent",
-          borderRight: "35vw solid #0767b6",
+          borderRight: "35vw solid blue",
           transform: "skewX(0deg)",
           position: "absolute",
           bottom: "0",

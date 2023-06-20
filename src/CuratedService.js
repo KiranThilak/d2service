@@ -1,8 +1,32 @@
 import React from "react";
 import curatedservice1 from "./img/curatedservice1.png";
 /* import curatedservice2 from "./img/curatedservice2.png"; */
+import Curatedcards from "./Curatedcards";
+import iconImage from "./img/batterycharging.png";
 
 const CuratedService = () => {
+  const cardData = [
+    {
+      icon: iconImage,
+      title: "Card 1",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
+    {
+      icon: iconImage,
+      title: "Card 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
+    {
+      icon: iconImage,
+      title: "Card 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
+    {
+      icon: iconImage,
+      title: "Card 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
+  ];
   return (
     <div className="bg-[#69C5FF]">
       <div className="flex items-center">
@@ -30,6 +54,11 @@ const CuratedService = () => {
             alt="Second"
           />
         </div>
+      </div>
+      <div className="flex justify-center py-8 ">
+        {cardData.map((card, index) => (
+          <Curatedcards key={index} {...card} />
+        ))}
       </div>
     </div>
   );

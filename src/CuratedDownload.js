@@ -36,7 +36,7 @@ const CuratedDownload = () => {
           right: "0",
         }}
       ></div>
-      <div
+      {/*     <div
         style={{
           width: "80vh",
           height: "50vh",
@@ -48,7 +48,7 @@ const CuratedDownload = () => {
           transform: "skewX(-70deg)",
           transformOrigin: "bottom right",
         }}
-      ></div>
+      ></div> */}
     </div>
   );
 };

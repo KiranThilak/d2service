@@ -8,27 +8,27 @@ const CuratedService = () => {
   const cardData = [
     {
       icon: iconImage,
-      title: "Card 1",
+      title: "Periodic Service",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       icon: iconImage,
-      title: "Card 2",
+      title: "Battery",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       icon: iconImage,
-      title: "Card 2",
+      title: "wheels and Tires",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       icon: iconImage,
-      title: "Card 2",
+      title: "Oil change",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       icon: iconImage,
-      title: "Card 2",
+      title: "Air condition",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];

@@ -3,6 +3,7 @@ import curatedservice1 from "./img/curatedservice1.png";
 /* import curatedservice2 from "./img/curatedservice2.png"; */
 import Curatedcards from "./Curatedcards";
 import iconImage from "./img/batterycharging.png";
+import CuratedDownload from "./CuratedDownload";
 
 const CuratedService = () => {
   const cardData = [
@@ -65,6 +66,7 @@ const CuratedService = () => {
           <Curatedcards key={index} {...card} />
         ))}
       </div>
+      <CuratedDownload />
     </div>
   );
 };

@@ -26,6 +26,11 @@ const CuratedService = () => {
       title: "Card 2",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
+    {
+      icon: iconImage,
+      title: "Card 2",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
   ];
   return (
     <div className="bg-[#69C5FF]">
@@ -55,7 +60,7 @@ const CuratedService = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center py-8 ">
+      <div className="flex justify-center py-8 gap-8 px-8">
         {cardData.map((card, index) => (
           <Curatedcards key={index} {...card} />
         ))}
